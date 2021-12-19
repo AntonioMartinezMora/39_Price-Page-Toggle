@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <title>Price Box</title>
+</head>
+<body>
+    <div class="container center__cont">
+        <h2>Simple pricing for your needs</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam fuga alias nam maxime earum repellendus unde maiores quae.</p>
+        <div class="price__options">
+            <small>Annual</small>
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <div class="selected"></div>
+            </label>
+            <small>Monthly</small>
+        </div>
+        <div class="price__box">
+            <div class="price__card center__cont" id="price__card">
+                <h3>
+                    $
+                    <span class="price selected__price">29</span>
+                    <span class="price">39</span>
+                    /mo
+                </h3>
+                <ul>
+                    <li>
+                        <i class="fas fa-check-square"></i> Unlimited storage
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> Flexible, simple license
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> Personalize your plan
+                    </li>
+                    <li>
+                        <i class="fas fa-check-square"></i> 24/7 support
+                    </li>
+                </ul>
+                <a href="#" class="plan__btn center__cont">Get this plan</a>
+            </div>
+            <div class="price__card center__cont" id="contact__card">
+                <h4>We offer a variable pricing with discounts for larger organizations. Get in touch with us and we'll figure out something that works for you.</h4>
+                <a href="#" class="plan__btn center__cont">Contact us</a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
